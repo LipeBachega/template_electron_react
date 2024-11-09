@@ -20,26 +20,25 @@ npm (or yarn)
 
 1. Clone the Repository
    bash
-   Copiar código
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
+
 2. Install Dependencies
    bash
-   Copiar código
    npm install
+
 3. Start the Development Environment
    bash
-   Copiar código
    npm start
+
 4. Build for Production
    bash
-   Copiar código
    npm run build
+
+
    📂 Project Structure
    An overview of the main files and folders in the project:
 
-plaintext
-Copiar código
 .
 ├── forge.config.ts # Electron Forge configuration
 ├── package.json # Project dependencies and scripts
@@ -51,7 +50,10 @@ Copiar código
 ├── App.tsx # Root React component
 ├── database # Sequelize setup and SQLite models
 └── ... # Additional components and utilities
+
+
 🗃️ Database
+
 This project uses SQLite as its database, accessed through Sequelize (a JavaScript/TypeScript ORM). The basic setup is already included, but you can customize or add new models as needed in the src/database folder.
 
 🎨 Styling with Tailwind CSS
@@ -63,6 +65,7 @@ In package.json, you’ll find helpful scripts for development and production:
 npm start: Starts the development environment.
 npm run build: Builds the project for production.
 npm run lint: Runs code linting.
+
 🤝 Contributing
 Feel free to fork the repository, open issues, and submit pull requests. We welcome all contributions that can help improve this template for other developers!
 
