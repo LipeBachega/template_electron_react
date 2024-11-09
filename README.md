@@ -40,16 +40,22 @@ npm (or yarn)
    An overview of the main files and folders in the project:
 
 .
-├── forge.config.ts # Electron Forge configuration
-├── package.json # Project dependencies and scripts
-├── tailwind.config.js # Tailwind CSS configuration
-├── tsconfig.json # TypeScript configuration
-├── webpack.main.config.ts # Webpack configuration (main process)
-├── webpack.renderer.config.ts # Webpack configuration (renderer process)
-└── src # Main project source code
-├── App.tsx # Root React component
-├── database # Sequelize setup and SQLite models
-└── ... # Additional components and utilities
+├── forge.config.ts               # Configuration for Electron Forge
+├── package.json                  # Project dependencies and scripts
+├── tailwind.config.js            # Tailwind CSS configuration
+├── tsconfig.json                 # TypeScript configuration
+├── webpack.main.config.ts        # Webpack configuration (main process)
+├── webpack.renderer.config.ts    # Webpack configuration (renderer process)
+└── src                           # Source code for the application
+    ├── App.tsx                   # Root React component
+    ├── database                  # Sequelize setup and SQLite models
+    │   ├── models                # Database models
+    │   └── index.ts              # Database initialization and configuration
+    ├── components                # Reusable UI components
+    ├── pages                     # Main views/screens of the application
+    ├── styles                    # Global and component styles
+    ├── utils                     # Utility functions
+    └── index.tsx                 # Entry point for the renderer process
 
 
 🗃️ Database
