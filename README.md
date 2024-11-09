@@ -27,7 +27,7 @@ npm (or yarn)
 
 1. Clone the Repository
    bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/LipeBachega/template_electron_react.git
    cd your-repo
 
 2. Install Dependencies
