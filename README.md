@@ -26,21 +26,25 @@ npm (or yarn)
 ⚡️ Getting Started
 
 1. Clone the Repository
+   
    bash
-   git clone https://github.com/LipeBachega/template_electron_react.git
-   cd your-repo
+   - git clone https://github.com/LipeBachega/template_electron_react.git
+   - cd your-repo
 
 2. Install Dependencies
+   
    bash
-   npm install
+   - npm install
 
 3. Start the Development Environment
+   
    bash
-   npm start
+   - npm start
 
 4. Build for Production
+   
    bash
-   npm run build
+   - npm run build
 
    📂 Project Structure
 
