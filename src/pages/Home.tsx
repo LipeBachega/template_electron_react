@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       <p className="text-gray-600">
         <a
           className="text-blue-600 hover:text-blue-800"
-          href="https://github.com/electron-react-typescript-tailwind-template"
+          href="https://github.com/LipeBachega/template_electron_react"
         >
           View on GitHub
         </a>
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       <p className="text-gray-600">
         <a
           className="text-blue-600 hover:text-blue-800"
-          href="https://github.com/electron-react-typescript-tailwind-template/issues"
+          href="https://github.com/LipeBachega/template_electron_react/issues"
         >
           Report an issue
         </a>

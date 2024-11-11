@@ -92,4 +92,4 @@ typings/
 out/
 
 # Sqlite
-src/database/database.sqlite
+src/db/database.sqlite
